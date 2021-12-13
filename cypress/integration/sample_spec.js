@@ -13,13 +13,12 @@ describe('My Second Test', () => {
 describe('My Third Test', () => {
     it('Visit Lucom', () => {
         cy.visit('https://lucom.com')
-        cy.contains('Kunden').click()
     })
 })
 
 describe('My Fourth Test', () => {
     it('Click on customers page', () => {
-        cy.visit('https://lucom.com')
         cy.contains('Kunden').click()
+        //cy.get('Kunden').click()
     })
 })
