@@ -19,6 +19,5 @@ describe('My Third Test', () => {
 describe('My Fourth Test', () => {
     it('Click on customers page', () => {
         cy.contains('Kunden').click()
-        //cy.get('Kunden').click()
     })
 })
